@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Projects from './Projects.js';
 import Articles from './Articles.js';
@@ -16,7 +15,6 @@ function App() {
         <Route path="/about" component={About} />
 
         <div className="navigation">
-          <img src={logo} className="logo" alt="Logo Image"/>
           <div className="navigation-sub">
 
             <Link to="/" className="item">Projects</Link>
