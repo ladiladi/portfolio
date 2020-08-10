@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.item {
+  margin-left: 20px;
+}
+
+.project-title, .project-category {
+  margin-bottom: 5px;
+}
+

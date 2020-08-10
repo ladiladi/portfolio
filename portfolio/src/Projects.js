@@ -5,9 +5,11 @@ import shoppingCart from './pictures/shopping-cart.PNG';
 import recipeApp from './pictures/recipe-app.PNG';
 import quizApp from './pictures/quiz-app.PNG';
 
+
+
 function Projects(props) {
   return (
-    <div>
+    <div className="projects">
         <h1>Projects</h1>
         <Thumbnail
             link="/shoppingcart"
