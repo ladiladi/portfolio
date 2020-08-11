@@ -1,22 +1,25 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Projects from './Projects.js';
-import Articles from './Articles.js';
-import About from './About.js';
-import Contact from './Contact.js';
-import Header from './Header.js';
+import Projects from './components/Projects.js';
+import Articles from './components/Articles.js';
+import About from './components/About.js';
+import Contact from './components/Contact.js';
+import Header from './components/Header.js';
+import Footer from './components/Footer.js';
 import './App.css';
 
 function App() {
   return (
+    <div>
+    <Header />
     <BrowserRouter>
       <div className="App">
-        <Header />
+        
         <Route exact path="/" component={Projects} />
         <Route path="/articles" component={Articles} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
-
+        
         <div className="navigation">
           <div className="navigation-sub">
 
@@ -29,6 +32,8 @@ function App() {
         </div>
       </div>
     </BrowserRouter>
+    <Footer />
+    </div>
   );
 }
 

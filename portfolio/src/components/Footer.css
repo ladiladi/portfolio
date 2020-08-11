@@ -1,6 +1,10 @@
-.fullHeader {
+.menuItem {
+    padding: 20px;
+}
+
+.fullFooter {
     background-color: #282c34;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,10 +12,11 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
-.nav {
-    display: flex;
-    float: left;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }

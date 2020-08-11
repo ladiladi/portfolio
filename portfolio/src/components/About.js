@@ -1,6 +1,6 @@
 import React from "react";
-import pictureTony from './pictures/tony.jpg';
-import './App.css';
+import pictureTony from './../pictures/tony.jpg';
+import './../App.css';
  
 function About(props) {
   return (

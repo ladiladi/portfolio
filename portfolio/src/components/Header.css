@@ -1,0 +1,29 @@
+.fullHeader {
+    background-color: #282c34;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.nav {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+h3 {
+    font-size: 20px;
+}
