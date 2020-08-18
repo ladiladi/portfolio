@@ -3,9 +3,9 @@
     margin-right: 50px;
     margin-bottom: 50px;
     padding: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-around;
-    flex-wrap: wrap;
     column-count: 2;
     column-gap: 50px;
 }

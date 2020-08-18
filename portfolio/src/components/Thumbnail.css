@@ -1,4 +1,14 @@
-.project-image{
+.project-image {
     box-shadow: 0 5px 20px #474747;
     border-radius: 10px;
+}
+
+.project-title {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.project-github {
+    font-size: 18px;
 }

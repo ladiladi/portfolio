@@ -12,6 +12,8 @@ function Footer(props) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <nav id="nav-wrap" className="nav-wrapper">
         <BrowserRouter>
+            
+
             <Link to="/" className="menuItem">Projects</Link>
             <Link to="/articles" className="menuItem">Articles</Link>
             <Link to="/about" className="menuItem">About</Link>
@@ -20,10 +22,10 @@ function Footer(props) {
         </nav>
         <div className="footerInfo">
             <div className="social-media">
-                <a href="https://github.com/ladiladi" class="fa fa-github"></a>
+                <a href="//github.com/ladiladi" class="fa fa-github"></a>
                 <a href="#" class="fa fa-facebook"></a>
-                <a href="www.linkedin.com/in/tony-v-55887b88" class="fa fa-linkedin"></a>
-                <a href="https://twitter.com/agamaha" class="fa fa-twitter"></a>
+                <a href="//linkedin.com/in/tony-v-55887b88" class="fa fa-linkedin"></a>
+                <a href="//twitter.com/agamaha" class="fa fa-twitter"></a>
             </div>
         </div>
     </footer>

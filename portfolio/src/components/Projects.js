@@ -13,31 +13,31 @@ function Projects(props) {
         <h1>Projects</h1>
         <div className="thumbnails">
         <Thumbnail
-            link="/shoppingcart"
+            link="//ladiladi.github.io/js-shopping-cart/"
             image={shoppingCart}
             title="Shopping Cart"
-            github="https://github.com/ladiladi/js-shopping-cart"
+            github="//github.com/ladiladi/js-shopping-cart"
         />
 
         <Thumbnail
-            link="/recipeapp"
+            link="//ladiladi.github.io/react-recipe-app/"
             image={recipeApp}
             title="Recipe App"
-            github="https://github.com/ladiladi/react-recipe-app"
+            github="//github.com/ladiladi/react-recipe-app"
         />
 
         <Thumbnail
-            link="/quizapp"
+            link="//ladiladi.github.io/react-quiz-app/"
             image={quizApp}
             title="Quiz App"
-            github="https://github.com/ladiladi/react-quiz-app"
+            github="//github.com/ladiladi/react-quiz-app"
         />
 
         <Thumbnail
-            link="/tetris"
+            link="//ladiladi.github.io/tetris/"
             image={tetris}
             title="Tetris"
-            github="https://github.com/ladiladi/tetris"
+            github="//github.com/ladiladi/tetris"
         />
         </div>
     </div>

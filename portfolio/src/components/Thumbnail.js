@@ -11,7 +11,9 @@ function Thumbnail(props) {
                     <img src={props.image} alt="Project" width="300"/>
                 </div>
                 <div className="project-title">{props.title}</div>
-                <div className="project-github">GitHub: {props.github}</div>
+            </Link>
+            <Link to={props.github}>
+                <div className="project-github"><b>GitHub Project Repository</b></div>
             </Link>
         </div>
     )
