@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 import Projects from './components/Projects.js';
 import Articles from './components/Articles.js';
@@ -11,15 +11,10 @@ import './App.css';
 function App() {
   return (
     <div>
-    <Header />
     <BrowserRouter>
       <div className="App">
-          <Route exact path="/" component={Projects} />
-          <Route path="/articles" component={Articles} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
         <div className="navigation">
-          <div className="navigation-sub">
+          <div className="navigation-top">
 
             <Link to="/" className="item">Projects</Link>
             <Link to="/articles" className="item">Articles</Link>
@@ -28,6 +23,11 @@ function App() {
 
           </div>
         </div>
+        <Header />
+        <Route exact path="/" component={Projects} />
+        <Route path="/articles" component={Articles} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
       </div>
     </BrowserRouter>
     <Footer />
